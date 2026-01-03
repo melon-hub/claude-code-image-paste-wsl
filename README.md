@@ -138,6 +138,14 @@ This configuration:
 **Extension not updating**
 - Fully close and reopen VS Code/Cursor (reload window may not be enough)
 
+## 💡 Contributing
+
+Have an idea or found a bug? Contributions welcome!
+
+- **Bug reports**: [Open an issue](https://github.com/melon-hub/claude-code-image-paste-wsl/issues/new?template=bug_report.md)
+- **Feature requests**: [Open an issue](https://github.com/melon-hub/claude-code-image-paste-wsl/issues/new?template=feature_request.md)
+- **Pull requests**: Fork, make changes, submit a PR
+
 ## 👥 Credits
 
 - **Original Extension**: [claude-image-paste](https://github.com/aggroot/claude-image-paste) by [agg](https://github.com/aggroot)
