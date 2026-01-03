@@ -1,5 +1,6 @@
 # Development files
 CLAUDE.md
+*Code Review*.md
 node_modules/
 
 # Build artifacts
