@@ -5,27 +5,8 @@ All notable changes to the Claude Code Image Paste (WSL) extension will be docum
 ## [1.1.6] - 2025-01-03
 
 ### Changed
-- Added dark gray background to icon for marketplace visibility
-
-## [1.1.5] - 2025-01-03
-
-### Changed
-- Scaled up icon for better visibility in marketplace
-
-## [1.1.4] - 2025-01-03
-
-### Changed
-- Excluded dev files from marketplace package
-
-## [1.1.3] - 2025-01-03
-
-### Changed
-- New custom icon design (image + clipboard + terminal)
-
-## [1.1.2] - 2025-01-03
-
-### Changed
-- Added .vscodeignore to exclude dev files from marketplace package
+- New custom icon (image + clipboard + terminal) with dark gray background
+- Improved marketplace packaging with .vscodeignore
 
 ## [1.1.1] - 2025-01-03
 
