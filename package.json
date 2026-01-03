@@ -2,7 +2,7 @@
   "name": "claude-code-image-paste-wsl",
   "displayName": "Claude Code Image Paste (WSL)",
   "description": "Paste images from clipboard into VS Code/Cursor terminal for Claude Code conversations. Optimized for Windows & WSL with auto-save to project directory. Based on agg4code/claude-image-paste.",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "publisher": "melon-hub",
   "author": {
     "name": "melon-hub"

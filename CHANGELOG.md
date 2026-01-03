@@ -2,6 +2,11 @@
 
 All notable changes to the Claude Code Image Paste (WSL) extension will be documented in this file.
 
+## [1.1.3] - 2025-01-03
+
+### Changed
+- New custom icon design (image + clipboard + terminal)
+
 ## [1.1.2] - 2025-01-03
 
 ### Changed
