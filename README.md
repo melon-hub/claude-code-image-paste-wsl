@@ -1,6 +1,8 @@
 # Claude Code Image Paste (WSL)
 
-A VS Code/Cursor extension for pasting images into terminals for Claude Code conversations. Optimized for Windows & WSL environments.
+Paste images from clipboard into terminals for Claude Code conversations. Optimized for Windows & WSL environments.
+
+**Works with all VS Code-based IDEs**: VS Code, Cursor, Windsurf, VSCodium, and other forks.
 
 **Based on [agg4code/claude-image-paste](https://github.com/aggroot/claude-image-paste)** - enhanced with WSL path handling, auto-save to project directory, and automatic cleanup.
 
@@ -19,16 +21,21 @@ A VS Code/Cursor extension for pasting images into terminals for Claude Code con
 
 ## 🚀 Installation
 
-### VS Code Marketplace
+### VS Code / VSCodium
+Install from the marketplace:
 ```
 ext install melon-hub.claude-code-image-paste-wsl
 ```
 
-### Manual Installation
+Or search "Claude Code Image Paste WSL" in the Extensions panel.
+
+### Cursor / Windsurf / Other Forks
+These IDEs don't always sync with the VS Code Marketplace. Install manually:
+
 1. Download the latest `.vsix` from [Releases](https://github.com/melon-hub/claude-code-image-paste-wsl/releases)
-2. In VS Code/Cursor: `Ctrl+Shift+P` → "Install from VSIX..."
+2. `Ctrl+Shift+P` → "Install from VSIX..."
 3. Select the downloaded file
-4. Restart VS Code/Cursor
+4. Restart the IDE
 
 ## 📖 Usage
 
@@ -106,7 +113,7 @@ This configuration:
 
 - **Windows 10/11** with **WSL2** (or native Windows)
 - **PowerShell** (comes with Windows)
-- **VS Code 1.74.0+** or **Cursor**
+- **VS Code 1.74.0+** or any VS Code-based IDE (Cursor, Windsurf, VSCodium, etc.)
 
 ## 🐛 Troubleshooting
 
