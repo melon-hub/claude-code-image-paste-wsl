@@ -1,0 +1,17 @@
+# Development files
+.git/
+.gitignore
+.vscodeignore
+.tool-versions
+CLAUDE.md
+node_modules/
+
+# Build artifacts
+*.vsix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config files not needed in package
+package-lock.json
