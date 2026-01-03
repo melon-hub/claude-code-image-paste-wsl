@@ -2,6 +2,11 @@
 
 All notable changes to the Claude Code Image Paste (WSL) extension will be documented in this file.
 
+## [1.1.6] - 2025-01-03
+
+### Changed
+- Added dark gray background to icon for marketplace visibility
+
 ## [1.1.5] - 2025-01-03
 
 ### Changed
