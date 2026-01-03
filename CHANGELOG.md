@@ -2,6 +2,11 @@
 
 All notable changes to the Claude Code Image Paste (WSL) extension will be documented in this file.
 
+## [1.1.4] - 2025-01-03
+
+### Changed
+- Excluded dev files from marketplace package
+
 ## [1.1.3] - 2025-01-03
 
 ### Changed

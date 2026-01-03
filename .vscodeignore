@@ -5,6 +5,7 @@
 .tool-versions
 CLAUDE.md
 node_modules/
+*Code Review*.md
 
 # Build artifacts
 *.vsix
