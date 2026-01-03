@@ -1,0 +1,76 @@
+{
+  "name": "claude-code-image-paste-wsl",
+  "displayName": "Claude Code Image Paste (WSL)",
+  "description": "Paste images from clipboard into VS Code/Cursor terminal for Claude Code conversations. Optimized for Windows & WSL with auto-save to project directory. Based on agg4code/claude-image-paste.",
+  "version": "1.1.1",
+  "publisher": "melon-hub",
+  "author": {
+    "name": "melon-hub"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melon-hub/claude-code-image-paste-wsl"
+  },
+  "homepage": "https://github.com/melon-hub/claude-code-image-paste-wsl#readme",
+  "bugs": {
+    "url": "https://github.com/melon-hub/claude-code-image-paste-wsl/issues"
+  },
+  "contributors": [
+    {
+      "name": "agg (Original Author)",
+      "url": "https://github.com/aggroot/claude-image-paste"
+    }
+  ],
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Other", "Snippets"],
+  "keywords": ["claude", "claude-code", "ai", "image", "paste", "clipboard", "wsl", "windows", "screenshot", "cursor"],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "claude-image-paste.pasteImage",
+      "title": "Paste Image for Claude",
+      "category": "Claude"
+    }],
+    "keybindings": [{
+      "command": "claude-image-paste.pasteImage",
+      "key": "ctrl+alt+v",
+      "when": "terminalIsOpen"
+    }],
+    "configuration": {
+      "title": "Claude Image Paste",
+      "properties": {
+        "claudeImagePaste.saveDirectory": {
+          "type": "string",
+          "default": "",
+          "description": "Custom directory to save pasted images. Leave empty to use system temp directory. Supports ~ for home directory. Relative paths are resolved relative to workspace root."
+        },
+        "claudeImagePaste.skipRenamePrompt": {
+          "type": "boolean",
+          "default": false,
+          "description": "Skip the file rename prompt and automatically use the default filename when pasting images."
+        },
+        "claudeImagePaste.maxImages": {
+          "type": "number",
+          "default": 10,
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Maximum number of images to keep in the save directory. Oldest images are automatically deleted when this limit is exceeded."
+        },
+        "claudeImagePaste.filenamePrefix": {
+          "type": "string",
+          "default": "img_",
+          "description": "Prefix for auto-generated filenames. Default creates files like 'img_20250103_120000.png'."
+        }
+      }
+    }
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.74.0"
+  }
+}
